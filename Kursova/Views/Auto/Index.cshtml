@@ -1,0 +1,29 @@
+﻿@model Kursova.Data.AutoDbContext;
+
+
+<div class="cars">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Mark</th>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var auto in Model.Autos)
+            {
+            <tr>
+                <td>@auto.Id</td>
+                <td>@auto.Mark</td>
+                <td>@auto.Model</td>
+                <td>@auto.Price</td>
+                <td>@auto.Year</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    <a>Add Car</a>
+</div>
