@@ -2,28 +2,33 @@
 
 
 <div class="cars">
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Mark</th>
-                <th>Model</th>
-                <th>Price</th>
-                <th>Year</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var auto in Model.Autos)
-            {
-            <tr>
-                <td>@auto.Id</td>
-                <td>@auto.Mark</td>
-                <td>@auto.Model</td>
-                <td>@auto.Price</td>
-                <td>@auto.Year</td>
-            </tr>
-            }
-        </tbody>
-    </table>
-    <a>Add Car</a>
+    <a asp-action="AddCar">Add Car</a>
+    <div class="addCar-cars">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Mark</th>
+                    <th>Model</th>
+                    <th>Price</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var auto in Model.Autos)
+                {
+                    <tr>
+                        <td>@auto.Id</td>
+                        <td>@auto.Mark</td>
+                        <td>@auto.Model</td>
+                        <td>@auto.Price</td>
+                        <td>@auto.Year</td>
+                        <td><div><a asp-action="Information" asp-route-id="@auto.Id">Information</a></div><div><a asp-action="Edit" asp-route-id="@auto.Id">Edit</a></div><div><a asp-action="Delete" asp-route-id="@auto.Id">Delete</a></div></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+
 </div>

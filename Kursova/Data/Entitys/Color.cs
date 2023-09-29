@@ -19,6 +19,6 @@ namespace Kursova.Data.Entitys
             Id = _id;
             ColorName = _colorName;
         }
-
+        
     }
 }
