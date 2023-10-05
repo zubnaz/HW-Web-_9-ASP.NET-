@@ -9,11 +9,9 @@ D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\ref\Kursova.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Kursova.pdb
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Kursova.Views.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Kursova.Views.pdb
-D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Humanizer.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -74,3 +72,14 @@ D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Razor\Views\Auto\Index.c
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Razor\Views\Auto\AddCar.cshtml.g.cs
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Razor\Views\Auto\Information.cshtml.g.cs
 D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Razor\Views\Auto\Edit.cshtml.g.cs
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.deps.json
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.runtimeconfig.json
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.runtimeconfig.dev.json
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.exe
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.dll
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\DataProject.pdb
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\FluentValidation.dll
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Kursova.MvcApplicationPartsAssemblyInfo.cs
+D:\SHAG\Web\HW(Web)_9(ASP.NET)\Kursova\obj\Debug\net5.0\Razor\Views\Favorites\Index.cshtml.g.cs

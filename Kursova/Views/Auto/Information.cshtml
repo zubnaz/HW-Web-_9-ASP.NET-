@@ -1,5 +1,5 @@
 ﻿@using System.Linq;
-@model Kursova.Data.Entitys.Auto
+@model DataProject.Data.Entitys.Auto
 
 <div class="information">
     <img src="@Model.Image" />
@@ -15,5 +15,5 @@
         <div>Color</div>
         <div>@Model.Color.ColorName</div>
     </div>
-    <a asp-action="Index">Back</a>
+    <a asp-controller="@ViewBag.String" asp-action="Index">Back</a>
 </div>

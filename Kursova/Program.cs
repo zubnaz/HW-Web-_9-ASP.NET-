@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace Kursova
 {
     public class Program
@@ -22,5 +23,6 @@ namespace Kursova
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+       
     }
 }

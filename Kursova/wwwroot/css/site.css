@@ -57,7 +57,7 @@ header nav a {
 
 div.container main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
 }
 
@@ -83,12 +83,12 @@ div.container main {
             margin-bottom: 30px;
             color: white;
         }
-        div.container main div.cars div.addCar-cars::-webkit-scrollbar {
-            border: 1px solid white;
-            margin-left: 10px;
-            background-color: #151234;
-            width: 30px;
-        }
+            div.container main div.cars div.addCar-cars::-webkit-scrollbar {
+                border: 1px solid white;
+                margin-left: 10px;
+                background-color: #151234;
+                width: 30px;
+            }
             div.container main div.cars table tr td {
                 padding: 30px;
                 border: 1px solid white;
@@ -115,11 +115,6 @@ div.container main {
                             margin-bottom: 0px;
                             margin-top: 0px;
                         }
-
-               /* div.container main div.cars table tr:hover {
-                    box-shadow: white 0px 5px 15px;
-                    text-shadow: 3px 3px 10px #fff, -2px 1px 20px #fff;
-                }*/
    
     
     div.container main a, div.container main form div.buttons-addPage button {
@@ -154,7 +149,7 @@ div.container main {
         div.container main form div.buttons-addPage a {
             flex-grow: 1;
         }
-            div .container main a:hover, div.container main button:hover {
+            div.container main a:hover, div.container main button:hover {
                 box-shadow: white 0px 5px 15px;
                 text-shadow: 3px 3px 10px #fff, -2px 1px 20px #fff;
                 color: white;
@@ -162,7 +157,7 @@ div.container main {
     div.container main form div.buttons-addPage a, div.container main form div.buttons-addPage button {
         width: 40%;
     }
-    div .container main form input::placeholder {
+    div.container main form input::placeholder {
         text-align: center;
         color: white;
     }
@@ -226,4 +221,53 @@ div.container main form  {
             div.container main div.information div.information-grid div:nth-child(odd) {
                 font-size: 50px;
             }
-    
+    div.container main div.homePage, div.container main div.Favorites {
+        display: flex;
+        row-gap: 30px;
+        column-gap: 30px;
+        flex-wrap: wrap;
+    }
+   /* div.container main div.homePage > div {
+        display: inline-block;
+        width: 30%;
+        padding: 10px;
+        height: 100%;
+    }*/
+    div.container main div.homePage div.flex, div.container main div.Favorites div.flex {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 25%;
+        border: 1px solid black;
+        padding: 30px;
+    }
+        div.container main div.homePage div.flex div:first-child, div.container main div.Favorites div.flex div:first-child {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+        div.container main div.homePage div.flex div.img, div.container main div.Favorites div.flex div.img {
+            height: 30%;
+            width: 100%;
+        }
+        div.container main div.homePage div.flex div.img img, div.container main div.Favorites div.flex div.img img {
+            height: 100%;
+            width: 100%;
+        }
+    /*div.container main div.homePage  div div.flex div {
+        width: 100%;
+    }*/
+        /*div.container main div.homePage div.flex div:nth-child(2n+1){
+            height:20%;
+        }*/
+        div.container main div.homePage div.flex div a, div.container main div.Favorites div.flex div a {
+            width: 100%;
+            color: white;
+            height: 50%;
+            overflow: hidden;
+        }
+            div.container main div.homePage div.flex div a.removeFromFavorites {
+                font-size: 15px;
+
+            }
+   

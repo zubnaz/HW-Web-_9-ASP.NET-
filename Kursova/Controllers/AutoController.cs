@@ -1,5 +1,5 @@
-﻿using Kursova.Data;
-using Kursova.Data.Entitys;
+﻿using DataProject.Data;
+using DataProject.Data.Entitys;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +12,12 @@ namespace Kursova.Controllers
 {
     public class AutoController : Controller
     {
-        AutoDbContext adc = new AutoDbContext();
+        // AutoDbContext adc = new AutoDbContext();
+        public readonly AutoDbContext adc;
+        public AutoController(AutoDbContext adc)
+        {
+            this.adc = adc;
+        }
         public void Colors()
         {
             this.ViewBag.Colors = new SelectList(adc.Colors.ToList(), "Id", "ColorName");
@@ -38,8 +43,9 @@ namespace Kursova.Controllers
             //this.ViewBag = adc.Colors;
             return RedirectToAction("Index");
         }
-        public IActionResult Information(int id)
+        public IActionResult Information(int id,string controllerName)
         {
+            this.ViewBag.String = controllerName;
            var car = adc.Autos.Include(c => c.Color);
             foreach (var item in car)
             {

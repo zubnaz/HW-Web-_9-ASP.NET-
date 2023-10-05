@@ -1,4 +1,4 @@
-﻿@model Kursova.Data.AutoDbContext;
+﻿@model DataProject.Data.AutoDbContext;
 
 
 <div class="cars">
@@ -23,7 +23,7 @@
                         <td>@auto.Model</td>
                         <td>@auto.Price</td>
                         <td>@auto.Year</td>
-                        <td><div><a asp-action="Information" asp-route-id="@auto.Id">Information</a></div><div><a asp-action="Edit" asp-route-id="@auto.Id">Edit</a></div><div><a asp-action="Delete" asp-route-id="@auto.Id">Delete</a></div></td>
+                        <td><div><a asp-action="Information" asp-route-id="@auto.Id" asp-route-controllerName="Auto">Information</a></div><div><a asp-action="Edit" asp-route-id="@auto.Id">Edit</a></div><div><a asp-action="Delete" asp-route-id="@auto.Id">Delete</a></div></td>
                     </tr>
                 }
             </tbody>

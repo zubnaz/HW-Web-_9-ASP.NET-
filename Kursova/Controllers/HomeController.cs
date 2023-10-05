@@ -1,4 +1,7 @@
-﻿using Kursova.Models;
+﻿using DataProject.Data;
+using Kursova.Helper;
+using Kursova.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,16 +14,19 @@ namespace Kursova.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public readonly AutoDbContext adc;
+        public HomeController(AutoDbContext adc)
         {
-            _logger = logger;
+            this.adc = adc;
         }
 
         public IActionResult Index()
         {
-            return View();
+            List<int> idFavorites = HttpContext.Session.Get<List<int>>("favorites_list");
+
+            this.ViewBag.Ids = idFavorites;
+
+                return View(adc);
         }
 
         public IActionResult Privacy()
